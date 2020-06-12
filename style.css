@@ -1,0 +1,281 @@
+/* CSS Document */
+*{
+	padding: 0 auto;
+	margin: 0 auto;
+}
+#wrapper{
+	width: 1440px;
+	height: 900px;
+	background: url("img/4.jpg");
+	background-size: cover;
+	animation: phongto 5s forwards;
+}
+@-webkit-keyframes phongto{
+	from{
+		transform: scale(0.5);
+	}
+	to{
+		transform: scale(1);
+	}
+}
+.header{
+	width: 1440px;
+	height: 60px;
+/*	background: grey;*/
+}
+.logo{
+	width: 500px;
+	height: 60px;
+/*	background: #3F0506;*/
+	float: left;
+}
+.logo a{
+	list-style: none;
+	font-size: 50px;
+	float: right;
+	text-decoration: none;
+}
+.logo a:hover{
+	color: aliceblue;
+	-webkit-box-shadow: -6px -1px 76px -2px rgba(3,94,250,1);
+	-moz-box-shadow: -6px -1px 76px -2px rgba(3,94,250,1);
+	box-shadow: -6px -1px 76px -2px rgba(3,94,250,1);
+}
+.banner{
+	width: 1080;
+	height: 60px;
+/*	background: #0E70F4;*/
+}
+.header ul{
+	list-style: none;
+	font-size: 30px;
+}
+.header ul li{
+	float: left;
+	margin-left: 50px;
+	margin-top: 18px;
+}
+.header ul li a{
+	text-decoration: none;
+	
+}
+.header ul li a:hover{
+	transition: 0.2;
+	color: white;
+	-webkit-box-shadow: -6px -1px 76px -2px rgba(255,255,255,1);
+	-moz-box-shadow: -6px -1px 76px -2px rgba(255,255,255,1);
+	box-shadow: -6px -1px 76px -2px rgba(255,255,255,1);
+}
+.menu {
+	width: 400px;
+	height: 50px;
+	padding: 5px 10px;
+	text-align: center;
+	box-sizing: border-box;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -25px;
+	margin-left: -200px;
+	font-size: 50px;
+	animation: chuChay 4s forwards;
+}
+.menu p{
+	font-size: 15px;
+	margin-left:150px;
+	color: aliceblue
+}
+.menu h1{
+	color: white;
+}
+@-webkit-keyframes chuChay{
+	from{
+		opacity: 0;
+		margin-left: -500px;
+	}
+	to{
+		opacity: 1;
+		margin-left: -200px;
+	}
+}
+a {
+    color: #69C;
+    text-decoration: none;
+}
+a:hover {
+    color: #F60;
+}
+h1 {
+    font: 1.7em;
+    line-height: 110%;
+    color: white;
+}
+p {
+    margin: 0 0 20px;
+}
+
+
+input {
+    outline: none;
+	float: right;
+	margin-top: 18px
+}
+input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    font-family: inherit;
+    font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+    display: none; 
+}
+
+
+input[type=search] {
+    background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+    border: solid 1px #ccc;
+    padding: 9px 10px 9px 32px;
+    width: 55px;
+    
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    border-radius: 10em;
+    
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+input[type=search]:focus {
+    width: 130px;
+    background-color: #fff;
+    border-color: #66CC75;
+    
+    -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+    -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+    box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+
+input:-moz-placeholder {
+    color: #999;
+}
+input::-webkit-input-placeholder {
+    color: #999;
+}
+#content{
+	width: 1440px;
+	height: 225px;
+/*	background: black;*/
+}
+.banner2{
+	width: 360px;
+	height: 225px;
+	background: url("img/7.jpg");
+	float: left;
+	background-size: cover;
+	animation: phongto 3s forwards;
+}
+.banner3{
+	width: 360px;
+	height: 225px;
+	background: url("img/6.jpg");
+	float: left;
+	background-size: cover;
+	animation: phongto 4s forwards;
+}
+
+.banner4{
+	width: 360px;
+	height: 225px;
+	background: url("img/2.jpg");
+	float: left;
+	animation: phongto 5s forwards;
+}
+.banner1{
+	width: 360px;
+	height: 225px;
+	background: url("img/1.jpg");
+	float: left;
+	background-size: cover;
+	animation: phongto 2s forwards;
+}
+#conten2{
+	width: 1440px;
+	height: 75px;
+    background: white;
+}
+#conten2 h1{
+	text-align: center;
+	margin-top: 20px;
+	color: black;
+}
+#conten2 a{
+	color: black;
+	-webkit-box-shadow: -24px 25px 0px -13px rgba(0,0,0,1);
+	-moz-box-shadow: -24px 25px 0px -13px rgba(0,0,0,1);
+	box-shadow: -24px 25px 0px -13px rgba(0,0,0,1);
+}
+#conten2 h1 a:hover{
+	color: red;
+}
+#footer{
+	width: 1440px;
+	height: 200px;
+	background: #7ee4c0;
+}
+.banner5{
+	width: 450px;
+	height: 300px;
+	float: left;
+/*	background: pink;*/
+}
+.banner5 img{
+	margin-left: 200px;
+	margin-top: 20px;
+}
+.banner5 h1{
+	font-size: 20px;
+	margin-left: 100px;
+	color: black;
+}
+.banner5 p{
+/*	color: aliceblue;*/
+	margin-left: 100px
+}
+.banner6{
+/*	background: yellow;*/
+	width: 450px;
+	height: 300px;
+	float:right;
+}
+.banner6 img{
+	margin-top: 20px;
+	margin-left: 200px;
+}
+.banner6 h1{
+	font-size: 20px;
+	margin-left: 50px;
+	color: black;
+}
+.banner6 p{
+	margin-left: 50px
+}
+.banner7{
+	width: 450px;
+/*	background: red;*/
+	height: 300px;
+}
+.banner7 h1{
+	font-size:20px;
+	margin-left:80px;
+	color: black;
+}
+.banner7 p{
+	margin-left: 80px
+}
+.banner7 img{
+	margin-top: 20px;
+	margin-left: 200px
+}
